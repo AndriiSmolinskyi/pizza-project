@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    
+    
+
+    .header__logo{
+        width: 70px;
+        border-radius: 10px;  
+    }
+
+    .header__right{
+        display: flex;
+        gap: 30px;
+        font-size: 28px;
+        color: orange;
+
+        .header__right__item:hover{
+            cursor: pointer;
+            color: white;
+        }
+    }
+}
